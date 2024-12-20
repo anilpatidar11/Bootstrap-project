@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+
+
+.mymain {
+
+
+}
+
+.mycontainer {
+  background-color:#87CEEB
+
+  
+}
+
+
+.my-content {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.mytext {
+  color: white;
+}
+.robin h1 {
+  font-family: "Sofia", sans-serif;
+}
+.mycontent {
+  color: white;
+  display: flex;
+  text-align: center;
+}
+
+.image-content {
+}
+.headtext {
+  font-family: "Trirong", serif;
+}
+
+.myimg img {
+  width: 50%;
+}
+.bgpic {
+  background-image: url("ball.jpg");
+}
+
+.number {
+  font-size: 50px;
+  color: rgb(149, 150, 165);
+}
+
+nav {
+  opacity: 0.5;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .myimg img {
+    width: 100%;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+
+  }
+}
